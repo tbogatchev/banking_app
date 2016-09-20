@@ -1,0 +1,22 @@
+.tableRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tableColumn {
+  flex: 1;
+}
+
+//For some reason the semantic-ui header was showing strange padding behaviour when in a flex box.
+.tableColumnHeader {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.squeezeMiddleContainer {
+  margin: 0 30%;
+}
+
+.buttonGroup {
+  margin-top: 20px;
+}
